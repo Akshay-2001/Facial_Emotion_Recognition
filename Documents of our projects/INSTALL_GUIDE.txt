@@ -1,0 +1,61 @@
+Face emotion recognition, also known as facial emotion detection, is a technology that uses 
+computer vision and machine learning techniques to automatically identify and analyze the 
+emotional expressions displayed on a person's face.
+
+This guide will assist you in setting up the necessary components to run a face emotion
+detection system on your machine. Please follow the steps below:
+
+Step 1: Prerequisites
+
+Before running the model directly we need to have the following prerequisites:
+
+	1. Python 3.7 or later: Make sure Python is installed on your system. You can download
+	   it from the official Python Website (https://www.python.org/downloads/).
+	
+	2. Pip : Pip is a package management system for python. It usually comes pre-installed
+	   with Python, but you can chekc its presence by running 'pip --version' in 
+	   command prompt.
+
+	3. Anaconda Navigator: This is an easy to use Python and data science platform, which 
+	   is used for managing and launching application, environments and packages. You can 
+	   download its appropriate distribution for you operating system from Anaconda 
+	   website (https://www.anaconda.com/products/individual). You can read the details 
+ 	   for installing anaconda on Anaconda documentation website 
+	   (https://docs.anaconda.com/free/anaconda/install/).
+
+Step 2: Install Dependencies
+
+1. Open your terminal or command prompt.
+2. Install the required dependencies by running the following commands:
+	pip install opencv-python numpy
+	pip install keras
+	pip install streamlit
+	pip install pandas
+	pip install seaborn
+	pip install scikitplot
+	pip install keras
+	pip install tensorflow
+
+Step 2: Install Spyder IDE
+
+Spyder IDE should be installed during the installation of Anaconda if not do the following:
+
+1. Open your anaconda terminal or anaconda prompt.
+2. Run the following commands:
+	conda update conda
+	conda install spyder=5.4.3
+
+Step 3: Running the Face Emotion Detection
+
+1. Open your terminal or command prompt
+2. Navigate to the directory where the face emotion detection file is saved.
+   (In this case it is saved in "F:\Final Year Project\FER")
+3. Run the following command to start the face emotion detection system:
+	python main.py
+
+   This  will launch the application, and you will be able to see the real-time face 
+   emotion decection output.
+
+Note: Make sure to provide appropriate permissions to access the camera 
+	when prompted by the system.
+
